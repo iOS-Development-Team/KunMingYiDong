@@ -1,0 +1,17 @@
+
+注：
+1.文件命名 KM 开头 驼峰命名
+
+2.RequestAPI-Pre 网络请求 API
+    2.1 DEF_API_XXX
+        eg:DEF_API_Login
+        
+3.MacroDefinition-Pre 宏定义
+    3.1 DEF_KEY_Cache_XXX (NSUserDefaults KEY)
+        eg: DEF_KEY_LoginAccount @"DEF_KEY_LoginAccount"
+        NSUserDefaults set or get [key MD5ForLower32Bate];
+    3.2 DEF_Notificate_XXX (通知声明)
+        eg: DEF_Notificate_LoginStatusChange @"DEF_Notificate_LoginStatusChange"
+        
+4.ClassHeader-pre 类声明
+

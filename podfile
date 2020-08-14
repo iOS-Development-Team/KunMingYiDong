@@ -1,0 +1,18 @@
+# Uncomment this  line to define a global platform for your project
+platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+
+target ’KunMingYiDong’ do
+	pod 'AFNetworking'
+	pod 'JSONModel', '~> 1.8.0'
+	pod 'MJRefresh', '~> 3.1.15.7'
+	pod 'SDWebImage', '~> 4.4.2'
+	pod 'SDAutoLayout', '~> 2.2.1'
+	pod 'Masonry', '~> 1.1.0'
+	pod 'SDCycleScrollView', '~> 1.75'
+	pod 'WYQProgressHUD', '~> 1.0.2'
+	pod 'Reachability', '~> 3.2'
+	pod 'WYQRegexHelper', '~> 1.0.0'
+end

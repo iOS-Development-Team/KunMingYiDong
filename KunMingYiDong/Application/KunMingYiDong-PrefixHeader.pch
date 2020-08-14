@@ -1,0 +1,19 @@
+//
+//  KunMingYiDong-PrefixHeader.pch
+//  KunMingYiDong
+//
+//  Created by YongQiang Wei on 2020/8/14.
+//  Copyright © 2020 YongQiang Wei. All rights reserved.
+//
+
+#ifndef KunMingYiDong_PrefixHeader_pch
+#define KunMingYiDong_PrefixHeader_pch
+
+#import "RequestAPI-PrefixHeader.pch"
+
+#import "MacroDefinition-PrefixHeader.pch"
+
+#import "ClassHeader-PrefixHeader.pch"
+
+#endif /* KunMingYiDong_PrefixHeader_pch */
+

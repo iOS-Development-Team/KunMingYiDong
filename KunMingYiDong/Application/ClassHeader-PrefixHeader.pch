@@ -1,0 +1,29 @@
+//
+//  ClassHeader-PrefixHeader.pch
+//  KunMingYiDong
+//
+//  Created by YongQiang Wei on 2020/8/14.
+//  Copyright © 2020 YongQiang Wei. All rights reserved.
+//
+
+#ifndef ClassHeader_PrefixHeader_pch
+#define ClassHeader_PrefixHeader_pch
+
+#pragma mark --- Root VC
+#import "RootBaseController.h"
+#import "RootTabBarController.h"
+#import "RootNavigtionController.h"
+
+#import "KMWorkbenchModuleController.h"
+#import "KMEarlyWarningController.h"
+#import "KMMineModuleController.h"
+
+
+
+
+#pragma mark --- Pod install
+#import <UIImageView+WebCache.h>
+#import <JSONModel.h>
+#import <AFNetworking.h>
+
+#endif /* ClassHeader_PrefixHeader_pch */
